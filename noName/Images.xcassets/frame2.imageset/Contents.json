@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 8,
+          "height" : 9
+        },
+        "capInsets" : {
+          "bottom" : 48,
+          "top" : 35,
+          "right" : 99,
+          "left" : 83
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "frame2.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
