@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F09C668C-0F91-49FF-8412-5B98966924EF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>noName</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AB083C71053955A7F82313EF3A1B937FC0E32C69</key>
 		<string>https://github.com/DasomHollyPark/SummerProj</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>noName.xcodeproj</string>
+	<string>noName.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AB083C71053955A7F82313EF3A1B937FC0E32C69</key>

@@ -38,8 +38,12 @@
 		1031B8761B62E58A00CA49CC /* Canter Bold 3D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1031B8751B62E58A00CA49CC /* Canter Bold 3D.otf */; };
 		1031B8781B62E5FF00CA49CC /* Canter Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1031B8771B62E5FF00CA49CC /* Canter Bold.otf */; };
 		1031B87A1B66C16700CA49CC /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031B8791B66C16700CA49CC /* CustomTableViewController.swift */; };
-		1031B87C1B694E9200CA49CC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031B87B1B694E9200CA49CC /* FeedViewController.swift */; };
+		1031B87C1B694E9200CA49CC /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031B87B1B694E9200CA49CC /* MessageViewController.swift */; };
 		1031B87F1B695B5900CA49CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1031B87D1B695B5900CA49CC /* Main.storyboard */; };
+		103CA9491B85196400412D90 /* setHashtagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CA9481B85196400412D90 /* setHashtagViewController.swift */; };
+		103CA94B1B881AC800412D90 /* chatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CA94A1B881AC800412D90 /* chatListViewController.swift */; };
+		109EB5F61B922EE90054839A /* Hamster.otf in Resources */ = {isa = PBXBuildFile; fileRef = 109EB5F51B922EE90054839A /* Hamster.otf */; };
+		10A4B3551B743A83005388D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4B3541B743A83005388D3 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +92,12 @@
 		1031B8751B62E58A00CA49CC /* Canter Bold 3D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Canter Bold 3D.otf"; path = "../../../Downloads/canter/Canter Bold 3D.otf"; sourceTree = "<group>"; };
 		1031B8771B62E5FF00CA49CC /* Canter Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Canter Bold.otf"; path = "../../../Downloads/canter/Canter Bold.otf"; sourceTree = "<group>"; };
 		1031B8791B66C16700CA49CC /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
-		1031B87B1B694E9200CA49CC /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1031B87B1B694E9200CA49CC /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		1031B87E1B695B5900CA49CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		103CA9481B85196400412D90 /* setHashtagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setHashtagViewController.swift; sourceTree = "<group>"; };
+		103CA94A1B881AC800412D90 /* chatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatListViewController.swift; sourceTree = "<group>"; };
+		109EB5F51B922EE90054839A /* Hamster.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hamster.otf; path = ../../Downloads/Hamster.otf; sourceTree = "<group>"; };
+		10A4B3541B743A83005388D3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 		102B170D1B617FD600646175 = {
 			isa = PBXGroup;
 			children = (
+				109EB5F51B922EE90054839A /* Hamster.otf */,
 				102B17181B617FD600646175 /* noName */,
 				102B17631B62C70200646175 /* libsqlite3.dylib */,
 				102B17611B62C6F700646175 /* libz.dylib */,
@@ -168,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				1031B87D1B695B5900CA49CC /* Main.storyboard */,
+				103CA94A1B881AC800412D90 /* chatListViewController.swift */,
+				103CA9481B85196400412D90 /* setHashtagViewController.swift */,
 				102B171B1B617FD600646175 /* AppDelegate.swift */,
 				102B17651B62C87F00646175 /* AuthViewController.swift */,
 				102B171D1B617FD600646175 /* ViewController.swift */,
@@ -175,7 +186,8 @@
 				102B17691B62D06F00646175 /* logInViewController.swift */,
 				102B173D1B61B19200646175 /* TabBarViewController.swift */,
 				1031B8791B66C16700CA49CC /* CustomTableViewController.swift */,
-				1031B87B1B694E9200CA49CC /* FeedViewController.swift */,
+				1031B87B1B694E9200CA49CC /* MessageViewController.swift */,
+				10A4B3541B743A83005388D3 /* SearchViewController.swift */,
 				102B17221B617FD600646175 /* Images.xcassets */,
 				102B17241B617FD600646175 /* LaunchScreen.xib */,
 				102B17191B617FD600646175 /* Supporting Files */,
@@ -291,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109EB5F61B922EE90054839A /* Hamster.otf in Resources */,
 				1031B8781B62E5FF00CA49CC /* Canter Bold.otf in Resources */,
 				1031B8761B62E58A00CA49CC /* Canter Bold 3D.otf in Resources */,
 				102B176C1B62E3CD00646175 /* Sunday-Regular.ttf in Resources */,
@@ -317,10 +330,13 @@
 				102B17681B62D06700646175 /* signUpViewController.swift in Sources */,
 				102B17661B62C87F00646175 /* AuthViewController.swift in Sources */,
 				102B171E1B617FD600646175 /* ViewController.swift in Sources */,
+				10A4B3551B743A83005388D3 /* SearchViewController.swift in Sources */,
 				102B173E1B61B19200646175 /* TabBarViewController.swift in Sources */,
 				102B176A1B62D06F00646175 /* logInViewController.swift in Sources */,
 				1031B87A1B66C16700CA49CC /* CustomTableViewController.swift in Sources */,
-				1031B87C1B694E9200CA49CC /* FeedViewController.swift in Sources */,
+				1031B87C1B694E9200CA49CC /* MessageViewController.swift in Sources */,
+				103CA9491B85196400412D90 /* setHashtagViewController.swift in Sources */,
+				103CA94B1B881AC800412D90 /* chatListViewController.swift in Sources */,
 				102B171C1B617FD600646175 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

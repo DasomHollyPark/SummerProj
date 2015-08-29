@@ -45,8 +45,7 @@ class logInViewController: UIViewController {
             self.actInd.stopAnimating()
             if((user) != nil){
             
-                var alert = UIAlertView(title: "success", message: "Logged In", delegate: self, cancelButtonTitle: "Ok")
-                alert.show()
+                
                 self.performSegueWithIdentifier("logInSuccess", sender: self)
                 
             }else{

@@ -14,7 +14,7 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        topTabBar.frame = CGRectMake(0, 20, 375, 0)
+      // topTabBar.frame = CGRectMake(0, 20, 375, 0)
         
 
         // Do any additional setup after loading the view.

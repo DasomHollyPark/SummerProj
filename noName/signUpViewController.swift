@@ -35,9 +35,7 @@ class signUpViewController: UIViewController {
     }
     
     @IBAction func signUpAction(sender: AnyObject) {
-    
-    
-    
+
     
         var username = self.usernameField.text
         var password = self.passwordField.text
@@ -56,11 +54,9 @@ class signUpViewController: UIViewController {
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
                 self.actInd.stopAnimating()
                 if(error != nil){
-                    var alert = UIAlertView(title: "Error", message: "\(error)", delegate: self, cancelButtonTitle: "OK")
+                    var alert = UIAlertView(title: "Sorry", message: "Username exists", delegate: self, cancelButtonTitle: "OK")
                     alert.show()
                 }else{
-                    var alert = UIAlertView(title: "Success", message: "Signed Up", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
                     self.performSegueWithIdentifier("signUpSuccess", sender: self)
                 }
             })
